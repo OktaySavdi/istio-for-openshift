@@ -1,0 +1,15 @@
+---
+kind: VirtualService
+apiVersion: networking.istio.io/v1alpha3
+metadata:
+  name: helloworld-vs
+spec:
+  hosts:
+    - "*" # Copy the value in the Gateway hosts
+  gateways:
+    - helloworld-gw # Gateway Name
+  http:
+    - route:
+        - destination:
+            host: helloworld # The Service DNS name
+      timeout: 2s
