@@ -7,7 +7,7 @@ spec:
   hosts:
     - "*" #Copy the value in the Gateway hosts
   gateways:
-    - helloworld/helloworld-gw
+    - helloworld-gw
   http:
     - route:
         - destination:
