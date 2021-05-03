@@ -5,7 +5,7 @@ metadata:
 spec:
   servers:
     - hosts:
-        - 'oktay-color.apps.gblabocp.fw.garanti.com.tr' # Domain name of the external website
+        - 'oktay-color.apps.mycluster.com.tr' # Domain name of the external website
       port:
         name: http
         number: 80
