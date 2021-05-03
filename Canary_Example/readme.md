@@ -1,10 +1,10 @@
-
-
 # Helloworld service (istio canary example)
 
 We will distribute load with canary within the scope of istio-example
 
-This sample includes two colors(blue,green) of a simple helloworld service that returns its project version when called. It can be used as a test service when experimenting with version routing.
+This sample includes two versions(v1,v2) of a simple helloworld service that returns its project version when called. It can be used as a test service when experimenting with version routing.
+
+This service is also used to demonstrate canary deployments working in conjunction. See canary deployments using Istio. Code repo for image [github\dotnet-example](https://github.com/OktaySavdi/dotnet-example)
 
 ## Start the helloworld service
 
