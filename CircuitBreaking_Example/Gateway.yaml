@@ -6,7 +6,7 @@ metadata:
 spec:
   servers:
     - hosts:
-        - 'myapps.apps.gblabocp.fw.garanti.com.tr' # Domain name of the external website
+        - 'myapps.mycluster.com' # Domain name of the external website
       port:
         name: http
         number: 80
