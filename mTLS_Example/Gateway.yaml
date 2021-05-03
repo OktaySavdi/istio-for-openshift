@@ -3,7 +3,7 @@
 kind: Gateway
 apiVersion: networking.istio.io/v1alpha3
 metadata:
-  name: helloworld-gateway
+  name: helloworld-gw
 spec:
   servers:
     - hosts:
