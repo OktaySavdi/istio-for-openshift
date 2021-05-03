@@ -1,11 +1,11 @@
 kind: Gateway
 apiVersion: networking.istio.io/v1alpha3
 metadata:
-  name: color-gw
+  name: helloworld-gw
 spec:
   servers:
     - hosts:
-        - 'oktay-color.apps.mycluster.com.tr' # Domain name of the external website
+        - 'myapps.apps.mycluster.com' # Domain name of the external website
       port:
         name: http
         number: 80
