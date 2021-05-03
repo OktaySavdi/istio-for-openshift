@@ -18,9 +18,9 @@ oc create -f Canary_Example/
 
 ## Generate load
 ```ruby
-while true; do curl -s "http://[URL]"; sleep 0.5; echo -e '\n'; done
+while true; do curl -s "http://[URL]/istio"; sleep 0.5; echo -e '\n'; done
     
-while true; do curl -s "http://myapps.mycluster.com"; sleep 0.5; echo -e '\n'; done 
+while true; do curl -s "http://myapps.mycluster.com/istio"; sleep 0.5; echo -e '\n'; done 
 ```
 ## Monitoring and Control
 
