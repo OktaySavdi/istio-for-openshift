@@ -1,0 +1,14 @@
+kind: Gateway
+apiVersion: networking.istio.io/v1alpha3
+metadata:
+  name: color-gw
+spec:
+  servers:
+    - hosts:
+        - 'oktay-color.apps.gblabocp.fw.garanti.com.tr' # Domain name of the external website
+      port:
+        name: http
+        number: 80
+        protocol: HTTP
+  selector:
+    istio: ingressgateway # use Istio default gateway implementation
