@@ -14,7 +14,7 @@ Deploying version blue, green or both:
 ```ruby
 oc create -f Canary_Example/
 ```
-![image](https://user-images.githubusercontent.com/3519706/116876939-ecb53c80-ac25-11eb-8af0-da7d64a02081.png)
+![image](https://user-images.githubusercontent.com/3519706/116878485-1b341700-ac28-11eb-8ce2-a0359134c38a.png)
 
 ## Generate load
 ```ruby
