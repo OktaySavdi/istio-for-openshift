@@ -29,6 +29,8 @@ spec:
       labels:
         app: helloworld
         version: safe
+      annotations:
+        sidecar.istio.io/inject: 'true'
     spec:
       containers:
       - name: helloworld
@@ -57,6 +59,8 @@ spec:
       labels:
         app: helloworld
         version: risky
+      annotations:
+        sidecar.istio.io/inject: 'true'
     spec:
       containers:
       - name: helloworld
